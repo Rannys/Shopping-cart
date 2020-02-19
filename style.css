@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light{
+    background-color: white;
+}
+
+
+.navbar-nav{
+    display : flex !important;
+    justify-content: space-between;
+    width : 100%
+}
+.navLeftItems{
+    display: flex;
+    
+}
+a.navbar-brand{
+    color: green !important;
+    font-size: 30px;
+}
+.nav-link{
+    color: black !important;
+    font-weight: 500;
+}
+.section1{
+    width: 100%;
+}
+.section1 img{
+    width: 100%;
+}
+.shoppingcart{
+    background-color: gray;
+    height: 50px;
+    color: black;
+    
+    
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-direction: column;
+    
+    
+    
+}
+.firstObject{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.plus{
+    width: 30px;
+    border-radius: 50px;
+    background-color: green;
+    text-align: center;
+    height: 30px;
+    
+    
+}
+.moins{
+    width: 30px;
+    border-radius: 50px;
+    background-color: green;
+    text-align: center;
+    height: 30px;
+    
+}
+.remove{
+    width: 30px;
+    border-radius: 10px;
+    color: red;
+}
+.like{
+    width: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+.imgobject{
+    height: 70px;
+}
+.objectname{
+    font-size: 20px;
+    font-weight: 600;
+}
+.price{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.red-like{
+    background: red;
+}
